@@ -71,3 +71,47 @@ COMPONENTS
     align-items: center;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.hero{
+    background-color: #eee;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.titre-sec{
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+
+
+.contenue{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
