@@ -104,6 +104,8 @@ COMPONENTS
     padding-bottom: 20px;
     margin-bottom: 60px;
     margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -114,4 +116,50 @@ COMPONENTS
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
 }
+
+.transports{
+    text-align: center;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.menu-social{
+    display: block;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.face a:hover{
+    background-color: #1877f2;
+}
+
+.x a:hover{
+    background-color: #1da1f2;
+}
+
+.job a:hover{
+    background-color: #0a66c2;
+}
+
+
+/*AIDE STYLISTIQUE*/
+
+.conteneur-transports-invisible{
+    display: none;
+}
+
 
