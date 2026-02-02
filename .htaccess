@@ -1,0 +1,6 @@
+AuthUserFile /home/.htpasswds/.htpasswd
+AuthGroupFile /home/.htpasswds/.htgroup
+AuthType Basic
+AuthName "Zone protégée"
+Require user acces@sisidor.dectim.ca
+Require group profs
